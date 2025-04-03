@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    animation: enhance-header linear both;
+    animation-timeline: scroll(root block);
+    animation-range: 0 1200px;
+    background-color: rgba(237, 178, 28, 0.413);
+    backdrop-filter: blur(5px);
+}
+
+@keyframes enhance-header{
+    to{
+        background-color: rgba(237, 178, 28, 0.413);
+        backdrop-filter: blur(5px);
+    }
+}
+
+#bar{
+    background-color: white;
+    border-radius: 100px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px rgba(140, 140, 140, 0.8);
+}
+
+#bar a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-weight: bold;
+}
+
+#bar a:hover{
+    color: white;
+    background-color: black;
+}
+
+#presentation{
+    display: flex;
+    justify-content: center;
+    column-gap: 8vw;
+}
+
+#presentation picture{
+    filter: drop-shadow(0 0 30px rgb(140, 140, 140));
+}
+
+#name{
+    align-content: center;
+    max-width: 45vw;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 18px 50px;
+    border-radius: 100px;
+    font-weight: bold;
+}
+
+#btn-buy{
+    background-color: rgba(237, 178, 28);
+    color: black;
+    box-shadow: 0 0 5px rgba(140, 140, 140, 0.8);
+}
+
+#btn-info{
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 5px rgba(140, 140, 140, 0.8);
+}
+
+#galery{
+    display: flex;
+    width: 100px;
+    margin: 50px 0;
+    column-gap: 10px;
+}
+
+#galery img{
+    width: 70px;
+    border-radius: 20px;
+}
