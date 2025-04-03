@@ -84,14 +84,23 @@ h1{
 
 #galery{
     display: flex;
-    width: 100px;
+    height: 110px;
     margin: 50px 0;
-    column-gap: 10px;
+    column-gap: 8px;
 }
 
 #galery img{
     height: 100px;
     border-radius: 20px;
+    border: 3px solid white;
+}
+
+#galery img:hover{
+    border: 3px solid lightseagreen;
+}
+
+.select{
+    border: 3px solid lightseagreen;
 }
 
 #info{
