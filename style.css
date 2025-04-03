@@ -12,18 +12,10 @@ header{
     position: sticky;
     top: 0;
     z-index: 1000;
-    animation: enhance-header linear both;
     animation-timeline: scroll(root block);
     animation-range: 0 1200px;
     background-color: rgba(237, 178, 28, 0.413);
     backdrop-filter: blur(5px);
-}
-
-@keyframes enhance-header{
-    to{
-        background-color: rgba(237, 178, 28, 0.413);
-        backdrop-filter: blur(5px);
-    }
 }
 
 #bar{
@@ -51,8 +43,10 @@ header{
 
 #presentation{
     display: flex;
+    align-items: center;
     justify-content: center;
     column-gap: 8vw;
+    height: 90vh;
 }
 
 #presentation picture{
@@ -79,6 +73,7 @@ h1{
     background-color: rgba(237, 178, 28);
     color: black;
     box-shadow: 0 0 5px rgba(140, 140, 140, 0.8);
+    margin-right: 15px;
 }
 
 #btn-info{
@@ -95,6 +90,29 @@ h1{
 }
 
 #galery img{
-    width: 70px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+#info article{
+    width: 70vw;
+}
+
+#reviews{
+    display: flex;
+    justify-content: space-between;
+}
+
+.review{
+    width: 20vw;
+    padding: 1px 20px;
+    background-color: rgba(237, 178, 28, 0.413);
     border-radius: 20px;
 }
