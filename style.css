@@ -5,27 +5,24 @@ body{
 }
 
 header{
+    height: 7vh;
+    width: 100%;
     display: flex;
     justify-content: center;
-    height: 10vh;
     align-items: center;
+    background-color: rgba(237, 178, 28, 0.413);
     position: sticky;
     top: 0;
     z-index: 1000;
-    animation-timeline: scroll(root block);
-    animation-range: 0 1200px;
-    background-color: rgba(237, 178, 28, 0.413);
     backdrop-filter: blur(5px);
 }
 
 #bar{
-    background-color: white;
-    border-radius: 100px;
     padding: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 5px rgba(140, 140, 140, 0.8);
+    
 }
 
 #bar a{
@@ -119,10 +116,13 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgba(205, 134, 63, 0.292);
+    margin-top: 70px;
+    padding-bottom: 50px;
 }
 
 #info article{
-    margin: 50px 0;
+    /* margin: 50px 0; */
     padding: 10px 0;
 }
 
@@ -160,6 +160,20 @@ h1{
     width: 70%;
 }
 
+#characters{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#characters img{
+    border-radius: 100px;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 20px rgba(140, 140, 140, 0.8);
+}
+
 #reviews{
     width: 70%;
 }
@@ -174,4 +188,10 @@ h1{
     padding: 1px 20px;
     background-color: rgba(237, 178, 28, 0.413);
     border-radius: 20px;
+    border: 1px solid black;
+}
+
+footer{
+    height: 20vh;
+    background-color: rgb(211, 133, 77);;
 }
