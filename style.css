@@ -107,14 +107,52 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 150px;
 }
 
 #info article{
-    width: 70vw;
+    margin: 50px 0;
+    padding: 10px 0;
+}
+
+#details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(211, 133, 77);
+}
+
+#details-container{
+    display: flex;
+    width: 50%; 
+    justify-content: space-around;
+}
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 7vw;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 0;
+}
+
+.detail p{
+    margin: 0;
+    margin-top: 5px;
+}
+
+.about{
+    width: 70%;
 }
 
 #reviews{
+    width: 70%;
+}
+
+#container-reviews{
     display: flex;
     justify-content: space-between;
 }

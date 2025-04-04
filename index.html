@@ -14,6 +14,7 @@
             <a href="#">Comprar</a>
         </nav>
     </header>
+
     <main>
         <section id="presentation">
             <picture>
@@ -29,46 +30,67 @@
                     <img src="./img/Mushoku12_02.jpg" alt="panel2" onclick="changeImg('./img/Mushoku12_02.jpg')">
                     <img src="./img/Mushoku12_03.jpg" alt="panel3" onclick="changeImg('./img/Mushoku12_03.jpg')">
                 </div>
-                <a href="https://wa.me/51993085638?text=feo" target="_blank" class="btn" id="btn-buy">Ir a Comprar</a>
+                <a href="https://wa.me/51993085638?text=Hola, estoy interesado en comprar" target="_blank" class="btn" id="btn-buy">Ir a Comprar</a>
                 <a href="#" class="btn" id="btn-info">Más informacion</a>
             </div>
         </section>
+
         <section id="info">
-            <article>
+            <article id="details">
                 <h3>Detalles del producto</h3>
-                <p><b>Tipo: </b>Tapa blanda<br>
-                <b>Páginas: </b>372<br>
-                <b>ISBN-10: </b>1648272606 <br>
-                <b>ISBN-13: </b>978-1648272608<br>
-                <b>Dimensiones: </b>5 x 0.95 x 7.12 pulgadas</p>
+                <div id="details-container">
+                    <div class="detail">
+                        <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-book-2"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19 4v16h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12z" /><path d="M19 16h-12a2 2 0 0 0 -2 2" /><path d="M9 8h6" /></svg>
+                        <p><b>Tipo</b><br>Tapa blanda</p>
+                    </div>
+                    <div class="detail">
+                        <svg xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-box-multiple"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" /><path d="M17 17v2a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2" /></svg>
+                        <p><b>Páginas</b><br>372</p>
+                    </div>
+                    <div class="detail">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24"  height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M2 4H4V20H2V4ZM6 4H7V20H6V4ZM8 4H10V20H8V4ZM11 4H13V20H11V4ZM14 4H16V20H14V4ZM17 4H18V20H17V4ZM19 4H22V20H19V4Z"></path></svg>
+                        <p><b>ISBN-10</b><br>1648272606 </p>
+                    </div>
+                    <div class="detail">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24"  height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M2 4H4V20H2V4ZM6 4H7V20H6V4ZM8 4H10V20H8V4ZM11 4H13V20H11V4ZM14 4H16V20H14V4ZM17 4H18V20H17V4ZM19 4H22V20H19V4Z"></path></svg>
+                        <p><b>ISBN-13</b><br>978-1648272608</p>
+                    </div>
+                    <div class="detail">
+                        <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-dimensions"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 5h11" /><path d="M12 7l2 -2l-2 -2" /><path d="M5 3l-2 2l2 2" /><path d="M19 10v11" /><path d="M17 19l2 2l2 -2" /><path d="M21 12l-2 -2l-2 2" /><path d="M3 10m0 2a2 2 0 0 1 2 -2h7a2 2 0 0 1 2 2v7a2 2 0 0 1 -2 2h-7a2 2 0 0 1 -2 -2z" /></svg>
+                        <p><b>Dimensiones</b><br>5 x 0.95 x 7.12 pulgadas</p>
+                    </div>
+                </div>
             </article>
-            <article>
+
+            <article class="about">
                 <h3>Sinopsis</h3>
                 <p><b>¡Padre e hijo se enfrentan al laberinto!</b><br>Rudeus y Paul deben descender a las profundidades mortales de un Laberinto de Teletransportación para rescatar a Zenith. Padre e hijo se deshacen rápidamente de bestias mortales y antiguas trampas mágicas, pero la terrible verdad en el corazón del Laberinto es la mayor amenaza. ¿Qué sucede cuando toda esperanza se desvanece sin remedio?</p>
             </article>
-            <article>
+            <article class="about">
                 <h3>Sobre el autor</h3>
                 <p>Rifujin na Magonote (理不尽な孫の手) es el seudónimo de un autor japonés mejor conocido por su serie de novelas originales: Mushoku Tensei y Orc Eroica. <br>Magonote rara vez aparece en cámara y prefiere mantener su privacidad. Cuando aparece, usa un casco característico que le cubre el rostro. Este casco es del mismo modelo que usa Orsted (un personaje de Mushoku Tensei) para mantener a raya su maldición.</p>
             </article>
-            <article>
-            <h3>Reseñas</h3>
-            <div id="reviews">
-                <div class="review">
-                    <p><b>Ren Romero</b>⭐⭐⭐⭐⭐<br><br>
+
+            <article id="reviews">
+                <h3>Reseñas</h3>
+                <div id="container-reviews">
+                    <div class="review">
+                        <p><b>Ren Romero</b>⭐⭐⭐⭐⭐<br><br>
                         Bueno, este fue un viaje salvaje, con mucha acción y aventura, con algo de picardía clásica de Mushoku Tensei añadida en algunas partes, pero el núcleo de este libro es sombrío, la escritura es la mejor que he leído del autor y casi se siente como si estuvieras leyendo una novela de George R.R. Martin, vale absolutamente la pena leerlo una vez que te hayas puesto al día con la serie.</p>
-                </div>
-                <div class="review">
-                    <p><b>Ren Romero</b>⭐⭐⭐⭐⭐<br><br>
+                    </div>
+                    <div class="review">
+                        <p><b>Ren Romero</b>⭐⭐⭐⭐⭐<br><br>
                         Bueno, este fue un viaje salvaje, con mucha acción y aventura, con algo de picardía clásica de Mushoku Tensei añadida en algunas partes, pero el núcleo de este libro es sombrío, la escritura es la mejor que he leído del autor y casi se siente como si estuvieras leyendo una novela de George R.R. Martin, vale absolutamente la pena leerlo una vez que te hayas puesto al día con la serie.</p>
-                </div>
-                <div class="review">
-                    <p><b>Ren Romero</b>⭐⭐⭐⭐⭐<br><br>
+                    </div>
+                    <div class="review">
+                        <p><b>Ren Romero</b>⭐⭐⭐⭐⭐<br><br>
                         Bueno, este fue un viaje salvaje, con mucha acción y aventura, con algo de picardía clásica de Mushoku Tensei añadida en algunas partes, pero el núcleo de este libro es sombrío, la escritura es la mejor que he leído del autor y casi se siente como si estuvieras leyendo una novela de George R.R. Martin, vale absolutamente la pena leerlo una vez que te hayas puesto al día con la serie.</p>
+                    </div>
                 </div>
-            </div>
             </article>
         </section>
     </main>
+
     <footer>
 
     </footer>
